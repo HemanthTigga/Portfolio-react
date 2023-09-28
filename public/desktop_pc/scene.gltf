@@ -1,0 +1,383 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        70.82208251953125,
+        170.36964416503906,
+        52.69010543823242
+      ],
+      "min": [
+        -69.5828857421875,
+        -13.239598274230957,
+        -63.93768310546875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112272,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.9997610449790955,
+        0.9994816780090332,
+        0.9991075396537781
+      ],
+      "min": [
+        -0.9998160004615784,
+        -0.9995331168174744,
+        -0.9999250769615173
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.9998419284820557,
+        0.9999901652336121,
+        0.9999872446060181,
+        1.0
+      ],
+      "min": [
+        -0.999984622001648,
+        -0.9999822974205017,
+        -0.9999771118164063,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9356,
+      "max": [
+        0.9949999451637268,
+        0.9941208362579346
+      ],
+      "min": [
+        0.004999999888241291,
+        0.004999999888241291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 28155,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 224544,
+      "componentType": 5126,
+      "count": 1620,
+      "max": [
+        37.83405685424805,
+        166.14480590820313,
+        42.23849105834961
+      ],
+      "min": [
+        -37.886592864990234,
+        47.24738311767578,
+        -49.44849395751953
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 243984,
+      "componentType": 5126,
+      "count": 1620,
+      "max": [
+        0.9953446984291077,
+        0.9863754510879517,
+        0.9994761347770691
+      ],
+      "min": [
+        -0.9989941120147705,
+        -0.9997239112854004,
+        -0.9911062121391296
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 74848,
+      "componentType": 5126,
+      "count": 1620,
+      "max": [
+        1.0,
+        0.6361160278320313
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 112620,
+      "componentType": 5125,
+      "count": 1620,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Glen Johnson (https://sketchfab.com/plasticarm)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/first-person-vr-sculpture-park-8f78f6e65e9f4e36b0b39a05da4d53d1",
+      "title": "First Person - VR Sculpture Park"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 119100,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 87808,
+      "byteOffset": 119100,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 263424,
+      "byteOffset": 206908,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 149696,
+      "byteOffset": 470332,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 620028,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_transmission"
+  ],
+  "images": [
+    {
+      "uri": "textures/Default_baseColor.png"
+    },
+    {
+      "uri": "textures/Default_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Default",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.35804115849999996
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.056431607172172264
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.9861296049711495
+        }
+      },
+      "name": "phong1SG1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.019660493610206952,
+          0.032620705265050294,
+          0.04623867585440519,
+          0.25
+        ],
+        "metallicFactor": 0.3239592263587667,
+        "roughnessFactor": 0.15979455094881104
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "firstPerson1_Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "faceGlass1_phong1SG1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.14846427738666534,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.2965691817802366e-17,
+        -0.14846427738666534,
+        0.0,
+        0.0,
+        0.14846427738666534,
+        3.2965691817802366e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "6a3c2e6462774f1a874638bfcc891990.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "firstPerson1"
+    },
+    {
+      "mesh": 0,
+      "name": "firstPerson1_Default_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "faceGlass1"
+    },
+    {
+      "mesh": 1,
+      "name": "faceGlass1_phong1SG1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9728,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 1,
+      "source": 2
+    }
+  ]
+}

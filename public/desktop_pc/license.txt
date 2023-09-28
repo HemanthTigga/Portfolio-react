@@ -1,0 +1,11 @@
+Model Information:
+* title:	First Person - VR Sculpture Park
+* source:	https://sketchfab.com/3d-models/first-person-vr-sculpture-park-8f78f6e65e9f4e36b0b39a05da4d53d1
+* author:	Glen Johnson (https://sketchfab.com/plasticarm)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "First Person - VR Sculpture Park" (https://sketchfab.com/3d-models/first-person-vr-sculpture-park-8f78f6e65e9f4e36b0b39a05da4d53d1) by Glen Johnson (https://sketchfab.com/plasticarm) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
